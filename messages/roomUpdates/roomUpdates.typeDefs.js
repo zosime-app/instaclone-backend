@@ -1,7 +1,7 @@
 import { gql } from "apollo-server-express";
 
 export default gql`
-    type Query{
-        seeProfile(userName:String):User
+    type Subscription {
+        roomUpdates(id:Int!) : Message
     }
 `;
