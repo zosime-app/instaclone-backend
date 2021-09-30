@@ -4,7 +4,7 @@ CREATE TABLE "Photo" (
     "userId" INTEGER NOT NULL,
     "file" TEXT NOT NULL,
     "caption" TEXT,
-    "createAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
     PRIMARY KEY ("id")
